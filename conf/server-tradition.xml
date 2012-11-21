@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serverConfig>
+    <roomName>le salon tradition</roomName>
+    <welcomeMessage>Bienvenue dans ce salon ! Ici on joue avec la règle traditionnelle.</welcomeMessage>
+    <listenningPort>42720</listenningPort>
+    <autoPortIncrement>false</autoPortIncrement>
+    <registerToMasterServer>true</registerToMasterServer>
+    <masterServerHost>masterserver.baggle.org</masterServerHost>
+    <masterServerPort>80</masterServerPort>
+    <listenOnLan>false</listenOnLan>
+    <lanListenningPort>42710</lanListenningPort>
+    <maxPlayers>6</maxPlayers>
+    <gameTime>180</gameTime>
+    <nbLettersMin>3</nbLettersMin>
+    <allWordsCount>false</allWordsCount>
+    <language>fr</language>
+    <blockChat>false</blockChat>
+    <isPrivate>false</isPrivate>
+    <parentalFilter>false</parentalFilter>
+    <password></password>
+    <logLevel>info</logLevel>
+</serverConfig>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serverConfig>
+    <roomName>le salon des pros</roomName>
+    <welcomeMessage>Bienvenue dans ce salon spécial pro</welcomeMessage>
+    <listenningPort>42730</listenningPort>
+    <autoPortIncrement>false</autoPortIncrement>
+    <registerToMasterServer>true</registerToMasterServer>
+    <masterServerHost>masterserver.baggle.org</masterServerHost>
+    <masterServerPort>80</masterServerPort>
+    <listenOnLan>false</listenOnLan>
+    <lanListenningPort>42710</lanListenningPort>
+    <maxPlayers>12</maxPlayers>
+    <gameTime>180</gameTime>
+    <nbLettersMin>4</nbLettersMin>
+    <allWordsCount>true</allWordsCount>
+    <language>fr</language>
+    <blockChat>false</blockChat>
+    <isPrivate>false</isPrivate>
+    <parentalFilter>false</parentalFilter>
+    <password></password>
+    <logLevel>info</logLevel>
+</serverConfig>
