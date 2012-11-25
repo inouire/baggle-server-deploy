@@ -1,6 +1,6 @@
 #!/bin/bash
 
-last_server_version="2.3"
+source SERVER_VERSION
 
 #move working directory to script path
 cd -P $(dirname $0)
