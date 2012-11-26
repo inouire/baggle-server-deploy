@@ -1,9 +1,11 @@
 #!/bin/bash
 
-source SERVER_VERSION
 
 #move working directory to script path
 cd -P $(dirname $0)
+
+#get last server version
+source SERVER_VERSION
 
 #if no arg: use default config
 if [ $# -eq 0 ]; then
