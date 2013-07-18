@@ -1,0 +1,26 @@
+room:
+    name: le salon big boggle
+    welcomeMessage: Bienvenue dans ce salon. Ici on joue au big boggle !
+    maxPlayers: 12
+    rules:
+        gameTime: 180
+        nbLettersMin: 4
+        allWordsCount: yes
+        language: fr
+        bigBoard: yes
+    options:
+        blockChat: no
+        parentalFilter: no
+network:
+    public:
+        listeningPort: 42715
+        portAutoIncrement: no
+    masterServer:
+        register: yes
+        host: masterserver.baggle.org
+        port: 80
+    lan:
+        listenOnLan: yes
+        listeningPort: 42710
+log:
+    level: INFO
