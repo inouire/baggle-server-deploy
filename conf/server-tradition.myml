@@ -1,0 +1,26 @@
+room:
+    name: le salon tradition
+    welcomeMessage: Bienvenue dans ce salon aux mots longs mais aux parties courtes !
+    maxPlayers: 6
+    rules:
+        gameTime: 180
+        nbLettersMin: 3
+        allWordsCount: no
+        language: fr
+        bigBoard: no
+    options:
+        blockChat: no
+        parentalFilter: no
+network:
+    public:
+        listeningPort: 42714
+        portAutoIncrement: no
+    masterServer:
+        register: yes
+        host: masterserver.baggle.org
+        port: 80
+    lan:
+        listenOnLan: yes
+        listeningPort: 42710
+log:
+    level: INFO

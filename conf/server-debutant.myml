@@ -1,0 +1,26 @@
+room:
+    name: le salon des apprentis
+    welcomeMessage: Bienvenue dans ce salon !
+    maxPlayers: 8
+    rules:
+        gameTime: 180
+        nbLettersMin: 3
+        allWordsCount: yes
+        language: fr
+        bigBoard: no
+    options:
+        blockChat: no
+        parentalFilter: no
+network:
+    public:
+        listeningPort: 42711
+        portAutoIncrement: no
+    masterServer:
+        register: yes
+        host: masterserver.baggle.org
+        port: 80
+    lan:
+        listenOnLan: yes
+        listeningPort: 42710
+log:
+    level: INFO

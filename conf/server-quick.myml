@@ -1,0 +1,26 @@
+room:
+    name: le salon des rapides
+    welcomeMessage: Bienvenue dans ce salon aux mots longs mais aux parties courtes !
+    maxPlayers: 12
+    rules:
+        gameTime: 120
+        nbLettersMin: 4
+        allWordsCount: yes
+        language: fr
+        bigBoard: no
+    options:
+        blockChat: no
+        parentalFilter: no
+network:
+    public:
+        listeningPort: 42712
+        portAutoIncrement: no
+    masterServer:
+        register: yes
+        host: masterserver.baggle.org
+        port: 80
+    lan:
+        listenOnLan: yes
+        listeningPort: 42710
+log:
+    level: INFO

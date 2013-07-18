@@ -1,0 +1,26 @@
+room:
+    name: le salon des pros
+    welcomeMessage: Bienvenue dans ce salon spécial pro
+    maxPlayers: 12
+    rules:
+        gameTime: 180
+        nbLettersMin: 4
+        allWordsCount: yes
+        language: fr
+        bigBoard: no
+    options:
+        blockChat: no
+        parentalFilter: no
+network:
+    public:
+        listeningPort: 42730
+        portAutoIncrement: no
+    masterServer:
+        register: yes
+        host: masterserver.baggle.org
+        port: 80
+    lan:
+        listenOnLan: yes
+        listeningPort: 42710
+log:
+    level: INFO
