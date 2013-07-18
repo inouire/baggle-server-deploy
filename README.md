@@ -40,3 +40,8 @@ Or you can even create your own config from an existing one and launch it
 ``` bash
 ./launch_server.sh conf/my_own_config.xml
 ```
+
+## TODO
+
+Explain what is b@ggle and add a link to the offical website
+List the available presets and explain them
