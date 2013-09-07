@@ -4,7 +4,6 @@ baggle-server-deploy
 This repository contains everything needed to deploy an up-to-date b@ggle server in a few steps.
 Follow this guide to install your own b@ggle instance, connected to the official b@ggle network.
 
-This guide is made for GNU/Linux Debian6 , feel free to adapt it to your own configuration.
 
 ## Requirements
 
@@ -33,12 +32,12 @@ chmod +x launch_server.sh
 
 You can also use another preset config from conf/ directory
 ``` bash
-./launch_server.sh conf/server-quick.xml
+./launch_server.sh conf/server-quick.myml
 ```
 
 Or you can even create your own config from an existing one and launch it
 ``` bash
-./launch_server.sh conf/my_own_config.xml
+./launch_server.sh conf/my_own_config.myml
 ```
 
 ## TODO
