@@ -1,6 +1,6 @@
 room:
     name: le salon tradition
-    welcomeMessage: Bienvenue dans ce salon aux mots longs mais aux parties courtes !
+    welcomeMessage: Bienvenue dans ce salon ! Ici on joue avec la règle traditionnelle.
     maxPlayers: 6
     rules:
         gameTime: 180
