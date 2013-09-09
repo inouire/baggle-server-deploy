@@ -14,7 +14,7 @@ room:
 network:
     public:
         listeningPort: 42730
-        portAutoIncrement: no
+        autoPortIncrement: no
     masterServer:
         register: yes
         host: masterserver.baggle.org
