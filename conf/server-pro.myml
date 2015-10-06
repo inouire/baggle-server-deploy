@@ -8,6 +8,7 @@ room:
         allWordsCount: yes
         language: fr
         bigBoard: no
+        rewardBigWords: yes
     options:
         blockChat: no
         parentalFilter: no
