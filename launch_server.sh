@@ -15,6 +15,8 @@ if [ $# -ge 1 ]; then
     config="-c $1"
 fi
 
+echo $config
+
 #launch server
 java -jar bin/baggle-server.jar $config
 
